@@ -1,0 +1,17 @@
+//
+//  AttributedLabel.h
+//  PowerApp
+//
+//  Created by Cory Hymel on 6/15/13.
+//  Copyright (c) 2013 Prime Notion Technologies, Inc. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AttributedLabel : UILabel
+
+@property (nonatomic, assign)CGRect endFrame;
+@property (nonatomic, assign)CGRect beginFrame;
+@property (nonatomic, assign)CGRect bounceFrame;
+
+@end
